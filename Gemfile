@@ -32,6 +32,8 @@ group :test do
 end
 
 group :production do
+  # gem "sqlite3", "1.4.2" を追加、RENDERにデプロイできなかったため。
+  gem "sqlite3", "1.4.2"
   gem "pg", "1.3.5"
 end
 
